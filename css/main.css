@@ -20,13 +20,13 @@ body {
 }
 
 main > p:first-child::first-letter {
-float: left;
-background-color: #666;
-font-size: 5rem;
-color: white;
-width: 300px;
-padding: 6px;
-display: block;
+  float: left;
+  background-color: #666;
+  font-size: 5rem;
+  color: white;
+  width: 300px;
+  padding: 6px;
+  display: block;
 }
 
 img {
@@ -81,17 +81,16 @@ footer {
 }
 
 figure {
-float: right;
+  float: right;
 }
 
 figcaption {
   float: right;
-  
 }
 
- blockquote {
-
- }
+blockquote {
+  float: left;
+}
 /*
  ##########################################################
  END DO NOT CHANGE ZONE
