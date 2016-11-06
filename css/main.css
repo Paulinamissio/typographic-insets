@@ -25,15 +25,16 @@ main > p:first-child::first-letter {
   font-size: 5rem;
   color: white;
   width: 300px;
-  margin: 0.2em;
+  padding: 6px;
+  margin: .2em;
   display: block;
-  border: 5px solid grey;
+  border: 2px solid black;
 }
 
 img {
-  display: block;
-  width: 50%;
   float: right;
+  width: 54%;
+  margin-right: 5px;
 }
 
 .wrapper {
@@ -95,6 +96,7 @@ blockquote {
   font-size: 1.5rem;
   float: left;
   width: 40%;
+  margin-left: 5px;
   border: 3px solid grey;
 }
 /*
