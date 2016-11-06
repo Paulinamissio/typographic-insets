@@ -25,8 +25,9 @@ main > p:first-child::first-letter {
   font-size: 5rem;
   color: white;
   width: 300px;
-  padding: 6px;
+  margin: 0.2em;
   display: block;
+  border: 5px solid grey;
 }
 
 img {
@@ -86,10 +87,15 @@ figure {
 
 figcaption {
   float: right;
+  width: 50%;
+  clear: both;
 }
 
 blockquote {
+  font-size: 1.5rem;
   float: left;
+  width: 40%;
+  border: 3px solid grey;
 }
 /*
  ##########################################################
