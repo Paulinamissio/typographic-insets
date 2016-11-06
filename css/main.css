@@ -19,6 +19,13 @@ body {
   margin: 0;
 }
 
+p:first-child::first-letter {
+float: left;
+background-color: #666;
+font-size: 5rem;
+color: white;
+}
+
 img {
   display: block;
   width: 50%;
